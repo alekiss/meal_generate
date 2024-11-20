@@ -1,0 +1,25 @@
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position:sticky;
+  background-color: var(--color-header);
+  height: 135px;
+  font-weight: 400;
+  font-size: 25px;
+
+  img {
+    width: 280px;
+  }
+  
+  .links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 80px;
+    a{
+      color: var(--color-primary-variant);
+      text-decoration: none;
+    }
+  }
+}
